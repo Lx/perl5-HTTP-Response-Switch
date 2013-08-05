@@ -142,22 +142,6 @@ Refer to the L</SYNOPSIS> above.  Further information on configuring a
 L<HTTP::Response::Switch::Handler> for further information on writing
 "handler" classes.
 
-In order to better understand how this distribution's code is intended
-to be used, inspecting the source code of the following known dependent
-distributions may also be helpful:
-
-=over 4
-
-=item *
-
-L<Finance::Bank::Bankwest>
-
-=item *
-
-L<Finance::Bank::Melbourne>
-
-=back
-
 =head1 METHODS TO DEFINE IN CONSUMING CLASSES
 
 These methods can be defined in a consuming class in order to customise

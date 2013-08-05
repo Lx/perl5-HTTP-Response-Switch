@@ -2,4 +2,6 @@ Revision history for Perl extension HTTP-Response-Switch
 
 {{$NEXT}}
 
+1.0.0   2013-08-05
+
   - Initial public release.
