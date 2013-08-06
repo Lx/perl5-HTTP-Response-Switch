@@ -116,6 +116,13 @@ Refer to the L</SYNOPSIS> above.  Further information on configuring a
 L<HTTP::Response::Switch::Handler> for further information on writing
 "handler" classes.
 
+In order to better understand how this distribution's code is intended
+to be used, inspecting the source code of the following known dependent
+distributions may also be helpful:
+
+=for :list
+* L<Finance::Bank::Bankwest> v1.2.2 and later
+
 =cut
 
 use Moose::Role;
