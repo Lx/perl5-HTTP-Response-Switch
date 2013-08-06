@@ -161,11 +161,15 @@ sub default_handlers { () }
 =head2 default_exception
 
     sub default_exception { 'MyProject::Error::BadWebResponse' }
+    sub default_exception { die 'unexpected HTTP response' } # default
 
 The exception class to throw if, during a call to L</handle> by
 external code, no handlers accept the L<HTTP::Response> in question.
 The instance of this class will be passed the HTTP response object when
 created, via parameter C<response>.
+
+Alternatively, this method can be written to throw an exception
+directly (e.g. using C<die>).
 
 If not defined in the consuming class, the default behaviour in this
 situation is to just C<die> with the message C<unexpected HTTP

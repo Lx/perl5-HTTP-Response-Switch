@@ -7,6 +7,8 @@ Revision history for Perl extension HTTP-Response-Switch
 
   - Make "load_handlers" a deprecated alias for "load_classes."
 
+  - Minor documentation adjustments.
+
 1.0.0   2013-08-05
 
   - Initial public release.
