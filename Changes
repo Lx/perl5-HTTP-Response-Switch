@@ -2,6 +2,11 @@ Revision history for Perl extension HTTP-Response-Switch
 
 {{$NEXT}}
 
+  - Rename "load_handlers" to "load_classes" and make it also load the
+    exception class if a "default_exception" is defined.
+
+  - Make "load_handlers" a deprecated alias for "load_classes."
+
 1.0.0   2013-08-05
 
   - Initial public release.
